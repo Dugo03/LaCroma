@@ -218,6 +218,7 @@ public class CombatController : MonoBehaviour {
         foreach (GameObject obj in charList)
         {
             obj.GetComponent<CombatCharacterController>().resetAction();
+            obj.GetComponent<Character>().nextTurn();
             StatModifier[] charModifiers = obj.GetComponents<StatModifier>();
             foreach (StatModifier modifier in charModifiers)
             {

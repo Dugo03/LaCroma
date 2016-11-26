@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17120CB9-6CF1-83E9-A1F3-D290FE385BC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="LaCroma.CSharp.Plugins.csproj">
+      <Project>{35D67741-FD30-32DD-C021-877AE7184C42}</Project>
+      <Name>LaCroma.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Menus\Combat\Animations\Branches\CombatBranchAnimationHandler.cs" />
+    <Compile Include="Assets\Menus\Main Menu\Credito\Creditos.cs" />
+    <Compile Include="Assets\Menus\Main Menu\Intro\Intro.cs" />
+    <Compile Include="Assets\Menus\Main Menu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Actor.cs" />
+    <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\ColorScrpits\Discoverable.cs" />
+    <Compile Include="Assets\Scripts\ColorWheelHP.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Acao.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Effects\ActionEffects.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Effects\InterruptIfHit.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Effects\ModifyStatsUserCurrentTurn.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Effects\StadardDamage.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Place\AcaoPlace.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Place\EarlyAttack.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Place\LateAttack.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Place\StandardAttack.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Retarget\ActionRetarget.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Retarget\GetRandomTarget.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Retarget\Recalculate.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\AcaoTargets.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\All.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\AllAllies.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\AllEnemies.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\AnyTwo.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\SingleAlly.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\SingleEnemy.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\SingleTarget.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\TwoAllies.cs" />
+    <Compile Include="Assets\Scripts\Combat\Actions\Targets\TwoEnemies.cs" />
+    <Compile Include="Assets\Scripts\Combat\CharControllers\AIBehaviour\BaseState.cs" />
+    <Compile Include="Assets\Scripts\Combat\CharControllers\AIBehaviour\WeakTarget.cs" />
+    <Compile Include="Assets\Scripts\Combat\CharControllers\CombatAI.cs" />
+    <Compile Include="Assets\Scripts\Combat\CharControllers\CombatCharacterController.cs" />
+    <Compile Include="Assets\Scripts\Combat\CharControllers\PlayerCombatController.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatCharacter.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatController.cs" />
+    <Compile Include="Assets\Scripts\Combat\PortraitController.cs" />
+    <Compile Include="Assets\Scripts\Combat\StatModifier.cs" />
+    <Compile Include="Assets\Scripts\Comparers.cs" />
+    <Compile Include="Assets\Scripts\DialogHandler.cs" />
+    <Compile Include="Assets\Scripts\Enums.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Menu\MenuAnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Menu\MenuBackgroundAnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Menu\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Menu\MenuSectionAnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Over\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Over\GameOverMenuController.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Over\GameOverSecao.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Over\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Over\MaterialController.cs" />
+    <Compile Include="Assets\Scripts\Menu\Game Over\TextoMenuAnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\Menu\Main Menu\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\MonoChroma.cs" />
+    <Compile Include="Assets\Scripts\Object Scripts\Damager.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ColorControl\BlueController.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ColorControl\ColorControl1.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ColorControl\GreenController.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ColorControl\RedController.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ColorControl\YellowController.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\IrisAnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Jump.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\OnHurtOverworld.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ParticleColor.cs" />
+    <Compile Include="Assets\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\SetColorWheel.cs" />
+    <Compile Include="Assets\Scripts\Test\Activate.cs" />
+    <Compile Include="Assets\Scripts\Test\ColorControl.cs" />
+    <Compile Include="Assets\Scripts\Test\CurrentAxis.cs" />
+    <Compile Include="Assets\Scripts\Test\Exit.cs" />
+    <Compile Include="Assets\Scripts\Test\TriggerFunctionOnKeyPress.cs" />
+    <Compile Include="Assets\Scripts\Test\UpdateColor.cs" />
+    <Compile Include="Assets\Scripts\Triggers\AreaTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\CallTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\CollisionTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\ColorTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\DebugTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Interactable.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\ActivateScripts.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\AddInteractable.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\Animate.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\AnimateBool.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\Awake.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\BroadcastMessage.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\CombatStarter.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\DeactivateCollider.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\DeactivateObject.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\DeactivateScripts.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\DebugLog.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\PlaySound.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\ResetObject.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\Response.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\Shake.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\StartDialog.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\StartTimer.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Responses\ToggleScript.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Timer.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Trigger.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\AnimateArgs.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\AnimateScript.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\Camera\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\Camera\CameraReset.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\Camera\FadeToGray.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\ColorController.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\CombatAnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\Pause.cs" />
+    <Compile Include="Assets\teste.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\HSVDefault.shader" />
+    <None Include="Assets\Menus\Dialog\Dialogs\Blue_Description.txt" />
+    <None Include="Assets\Menus\Dialog\Dialogs\Green_Description.txt" />
+    <None Include="Assets\Menus\Dialog\Dialogs\RedDescription.txt" />
+    <None Include="Assets\Menus\Dialog\Dialogs\TestDialog.txt" />
+    <None Include="Assets\Menus\Dialog\Dialogs\Tutorial.txt" />
+    <None Include="Assets\Menus\Dialog\Dialogs\Yellow_Description.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

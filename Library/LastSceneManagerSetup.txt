@@ -1,4 +1,4 @@
 sceneSetups:
-- path: "Assets/Calabou\xE7o.unity"
+- path: Assets/Cemiterio 1.unity
   isLoaded: 1
   isActive: 1

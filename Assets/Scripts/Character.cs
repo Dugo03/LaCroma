@@ -12,6 +12,7 @@ public class Character : MonoBehaviour {
 
     public int currentHP;
     public int maxHP;
+    public int damageThisTurn;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class Character : MonoBehaviour {
     private void takeDamage(object sender, DamageArgs args)
     {
         currentHP -= args.Damage;
+        damageThisTurn += args.Damage;
         float percentage = (float)currentHP / maxHP;
 
         setSaturation(percentage);
@@ -65,6 +67,10 @@ public class Character : MonoBehaviour {
         return result;
     }
 
+    public void nextTurn()
+    {
+        damageThisTurn = 0;
+    }
 }
 
 public class HpChangeArgs : EventArgs
